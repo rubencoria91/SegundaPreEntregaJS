@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(143, 112, 104);
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+
+
+.img-principal {
+  justify-content: center;
+  display: flex;
+  height: 60%;
+  width: 60%;
+  margin: auto;
+}
+
+.texto {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+  text-align: center;
+}
+
+
+
+
+.card {
+
+ width: 50%;
+ height: 150px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+  
+}
+  
+.img-instrumentos{
+  width: 400px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.precio {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+  text-align: center;
+}
+
+
+.comprar{
+
+  background-color: black;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(210, 212, 228);
+  text-transform: uppercase;
+  text-align: center;
+  cursor:pointer;
+
+}
+
+
+.modal-header-titulo{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  font-size: 30px;
+  color:blanchedalmond;
+}
+
+.modal-header-button{
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: right;
+  font-size: 20px;
+  color:blanchedalmond;
+ 
+}
+
+.modal-contenedor2{
+background-color: rgb(117, 117, 119);
+width: 80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.modal-texto {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  color: blanchedalmond;
+}
+
+.modal-precio{
+
+
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: justify;
+    text-align: left;
+    color: blanchedalmond;
+   
+  }
+
+
+  .instrumentos {
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .total-compra{
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: justify;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+  }
+
+  .eliminar-producto{
+    color: azure;
+    cursor: pointer;
+  }
+
